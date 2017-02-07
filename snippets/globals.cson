@@ -1,0 +1,49 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'describe(name, fn)':
+    prefix: 'desc'
+    body: """
+      describe('$1', () => {
+        $2
+      });
+    """
+
+  'test(name, fn)':
+    prefix: 'test'
+    body: """
+      test('$1', () => {
+        $2
+      });
+    """
+
+  'afterAll(fn)':
+    prefix: 'aftera'
+    body: """
+      afterAll(() => {
+        $1
+      })
+    """
+
+  'afterEach(fn)':
+    prefix: 'aftere'
+    body: """
+      afterEach(() => {
+        $1
+      })
+    """
+
+  'beforeAll(fn)':
+    prefix: 'beforea'
+    body: """
+      beforeAll(() => {
+        $1
+      })
+    """
+
+  'beforeEach(fn)':
+    prefix: 'beforee'
+    body: """
+      beforeEach(() => {
+        $1
+      })
+    """

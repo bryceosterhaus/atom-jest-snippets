@@ -1,0 +1,29 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  '.mockClear()':
+    prefix: 'mcl'
+    body: '.mockClear();'
+
+  '.mockReset()':
+    prefix: 'mre'
+    body: '.mockReset();'
+
+  '.mockImplementation(fn)':
+    prefix: 'mim'
+    body: '.mockImplementation($1);'
+
+  '.mockImplementationOnce(fn)':
+    prefix: 'mimo'
+    body: '.mockImplementationOnce($1);'
+
+  '.mockReturnThis()':
+    prefix: 'mrett'
+    body: '.mockReturnThis();'
+
+  '.mockReturnValue(value)':
+    prefix: 'mretv'
+    body: '.mockReturnValue($1);'
+
+  '.mockReturnValueOnce(value)':
+    prefix: 'mretvo'
+    body: '.mockReturnValueOnce($1);'

@@ -1,0 +1,97 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'expect(value)':
+    prefix: 'exp'
+    body: 'expect($1)'
+
+  '.toBe(value)':
+    prefix: 'be'
+    body: 'expect($1).toBe($2);'
+
+  '.toHaveBeenCalled(value)':
+    prefix: 'hbcall'
+    body: 'expect($1).toHaveBeenCalled($2);'
+
+  '.toHaveBeenCalledTimes(value)':
+    prefix: 'hbcallt'
+    body: 'expect($1).toHaveBeenCalledTimes($2);'
+
+  '.toHaveBeenCalledWith(value)':
+    prefix: 'hdcallw'
+    body: 'expect($1).toHaveBeenCalledWith($2);'
+
+  '.toBeCloseTo(value)':
+    prefix: 'bclose'
+    body: 'expect($1).toBeCloseTo($2);'
+
+  '.toBeDefined(value)':
+    prefix: 'bdefin'
+    body: 'expect($1).toBeDefined($2);'
+
+  '.toBeFalsy(value)':
+    prefix: 'bfalsy'
+    body: 'expect($1).toBeFalsy($2);'
+
+  '.toBeGreaterThan(value)':
+    prefix: 'bgreat'
+    body: 'expect($1).toBeGreaterThan($2);'
+
+  '.toBeGreaterThanOrEqual(value)':
+    prefix: 'bgreator'
+    body: 'expect($1).toBeGreaterThanOrEqual($2);'
+
+  '.toBeLessThan(value)':
+    prefix: 'bless'
+    body: 'expect($1).toBeLessThan($2);'
+
+  '.toBeLessThanOrEqual(value)':
+    prefix: 'blessor'
+    body: 'expect($1).toBeLessThanOrEqual($2);'
+
+  '.toBeInstanceOf(value)':
+    prefix: 'binst'
+    body: 'expect($1).toBeInstanceOf($2);'
+
+  '.toBeNull(value)':
+    prefix: 'bnull'
+    body: 'expect($1).toBeNull($2);'
+
+  '.toBeTruthy(value)':
+    prefix: 'btruthy'
+    body: 'expect($1).toBeTruthy($2);'
+
+  '.toBeUndefined(value)':
+    prefix: 'bundefin'
+    body: 'expect($1).toBeUndefined($2);'
+
+  '.toContain(value)':
+    prefix: 'contain'
+    body: 'expect($1).toContain($2);'
+
+  '.toContainEqual(value)':
+    prefix: 'containeq'
+    body: 'expect($1).toContainEqual($2);'
+
+  '.toEqual(value)':
+    prefix: 'eq'
+    body: 'expect($1).toEqual($2);'
+
+  '.toHaveLength(value)':
+    prefix: 'hleng'
+    body: 'expect($1).toHaveLength($2);'
+
+  '.toMatch(value)':
+    prefix: 'match'
+    body: 'expect($1).toMatch($2);'
+
+  '.toMatchObject(value)':
+    prefix: 'matchob'
+    body: 'expect($1).toMatchObject($2);'
+
+  '.toMatchSnapshot(value)':
+    prefix: 'matchsnap'
+    body: 'expect($1).toMatchSnapshot($2);'
+
+  '.toThrow(value)':
+    prefix: 'throw'
+    body: 'expect($1).toThrow($2);'

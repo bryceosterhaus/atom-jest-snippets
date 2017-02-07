@@ -1,0 +1,65 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'jest.clearAllTimers()':
+    prefix: 'jcla'
+    body: 'jest.clearAllTimers();'
+
+  'jest.disableAutomock()':
+    prefix: 'jdia'
+    body: 'jest.disableAutomock();'
+
+  'jest.enableAutomock()':
+    prefix: 'jena'
+    body: 'jest.enableAutomock();'
+
+  'jest.fn()':
+    prefix: 'jfn'
+    body: 'jest.fn($1);'
+
+  'jest.isMockFunction(fn)':
+    prefix: 'jim'
+    body: 'jest.isMockFunction($1);'
+
+  'jest.genMockFromModule(moduleName)':
+    prefix: 'jgm'
+    body: 'jest.genMockFromModule($1);'
+
+  'jest.mock(moduleName, factory, options)':
+    prefix: 'jmo'
+    body: 'jest.mock($1);'
+
+  'jest.resetAllMocks()':
+    prefix: 'jramo'
+    body: 'jest.resetAllMocks();'
+
+  'jest.resetModules()':
+    prefix: 'jrmo'
+    body: 'jest.resetModules();'
+
+  'jest.runAllTicks()':
+    prefix: 'jticks'
+    body: 'jest.runAllTicks();'
+
+  'jest.runAllTimers()':
+    prefix: 'jtimers'
+    body: 'jest.runAllTimers();'
+
+  'jest.runOnlyPendingTimers()':
+    prefix: 'jtimers'
+    body: 'jest.runOnlyPendingTimers();'
+
+  'jest.setMock(moduleName, moduleExports)':
+    prefix: 'jtimers'
+    body: 'jest.setMock($1);'
+
+  'jest.unmock(moduleName)':
+    prefix: 'jtimers'
+    body: 'jest.unmock($1);'
+
+  'jest.useFakeTimers()':
+    prefix: 'jtimers'
+    body: 'jest.useFakeTimers($1);'
+
+  'jest.useRealTimers()':
+    prefix: 'jtimers'
+    body: 'jest.useRealTimers($1);'

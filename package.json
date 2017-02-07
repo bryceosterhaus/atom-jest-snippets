@@ -1,0 +1,19 @@
+{
+  "name": "atom-jest-snippets",
+  "version": "1.0.0",
+  "description": "Snippets for Jest testing framework",
+  "repository": "https://github.com/bryceosterhaus/atom-jest-snippets.git",
+  "keywords": [
+    "atom",
+    "jest",
+    "snippets"
+  ],
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "author": "Bryce Osterhaus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryceosterhaus/atom-metal-snippets/issues"
+  }
+}
