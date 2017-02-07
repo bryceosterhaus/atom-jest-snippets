@@ -12,8 +12,5 @@
     "atom": ">0.50.0"
   },
   "author": "Bryce Osterhaus",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bryceosterhaus/atom-metal-snippets/issues"
-  }
+  "license": "MIT"
 }
