@@ -2,96 +2,96 @@
 
   'expect(value)':
     prefix: 'exp'
-    body: 'expect($1)'
+    body: 'expect($1)$2'
 
   '.toBe(value)':
-    prefix: 'be'
+    prefix: 'ebe'
     body: 'expect($1).toBe($2);'
 
   '.toHaveBeenCalled(value)':
-    prefix: 'hbcall'
+    prefix: 'ecall'
     body: 'expect($1).toHaveBeenCalled($2);'
 
   '.toHaveBeenCalledTimes(value)':
-    prefix: 'hbcallt'
+    prefix: 'ecallt'
     body: 'expect($1).toHaveBeenCalledTimes($2);'
 
   '.toHaveBeenCalledWith(value)':
-    prefix: 'hdcallw'
+    prefix: 'ecallw'
     body: 'expect($1).toHaveBeenCalledWith($2);'
 
   '.toBeCloseTo(value)':
-    prefix: 'bclose'
+    prefix: 'ecloseto'
     body: 'expect($1).toBeCloseTo($2);'
 
   '.toBeDefined(value)':
-    prefix: 'bdefin'
+    prefix: 'edef'
     body: 'expect($1).toBeDefined($2);'
 
   '.toBeFalsy(value)':
-    prefix: 'bfalsy'
+    prefix: 'efalsy'
     body: 'expect($1).toBeFalsy($2);'
 
   '.toBeGreaterThan(value)':
-    prefix: 'bgreat'
+    prefix: 'egreater'
     body: 'expect($1).toBeGreaterThan($2);'
 
   '.toBeGreaterThanOrEqual(value)':
-    prefix: 'bgreator'
+    prefix: 'egreateror'
     body: 'expect($1).toBeGreaterThanOrEqual($2);'
 
   '.toBeLessThan(value)':
-    prefix: 'bless'
+    prefix: 'eless'
     body: 'expect($1).toBeLessThan($2);'
 
   '.toBeLessThanOrEqual(value)':
-    prefix: 'blessor'
+    prefix: 'elessor'
     body: 'expect($1).toBeLessThanOrEqual($2);'
 
   '.toBeInstanceOf(value)':
-    prefix: 'binst'
+    prefix: 'einst'
     body: 'expect($1).toBeInstanceOf($2);'
 
   '.toBeNull(value)':
-    prefix: 'bnull'
+    prefix: 'enull'
     body: 'expect($1).toBeNull($2);'
 
   '.toBeTruthy(value)':
-    prefix: 'btruthy'
+    prefix: 'etruthy'
     body: 'expect($1).toBeTruthy($2);'
 
   '.toBeUndefined(value)':
-    prefix: 'bundefin'
+    prefix: 'eundef'
     body: 'expect($1).toBeUndefined($2);'
 
   '.toContain(value)':
-    prefix: 'contain'
+    prefix: 'econ'
     body: 'expect($1).toContain($2);'
 
   '.toContainEqual(value)':
-    prefix: 'containeq'
+    prefix: 'econeq'
     body: 'expect($1).toContainEqual($2);'
 
   '.toEqual(value)':
-    prefix: 'eq'
+    prefix: 'eeq'
     body: 'expect($1).toEqual($2);'
 
   '.toHaveLength(value)':
-    prefix: 'hleng'
+    prefix: 'eleng'
     body: 'expect($1).toHaveLength($2);'
 
   '.toMatch(value)':
-    prefix: 'match'
+    prefix: 'emat'
     body: 'expect($1).toMatch($2);'
 
   '.toMatchObject(value)':
-    prefix: 'matchob'
+    prefix: 'ematob'
     body: 'expect($1).toMatchObject($2);'
 
   '.toMatchSnapshot(value)':
-    prefix: 'matchsnap'
+    prefix: 'ematsnap'
     body: 'expect($1).toMatchSnapshot($2);'
 
   '.toThrow(value)':
-    prefix: 'throw'
+    prefix: 'ethrow'
     body: 'expect($1).toThrow($2);'

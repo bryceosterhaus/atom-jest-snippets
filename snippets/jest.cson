@@ -1,15 +1,15 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
   'jest.clearAllTimers()':
-    prefix: 'jcla'
+    prefix: 'jcleartimers'
     body: 'jest.clearAllTimers();'
 
   'jest.disableAutomock()':
-    prefix: 'jdia'
+    prefix: 'jdisableautomock'
     body: 'jest.disableAutomock();'
 
   'jest.enableAutomock()':
-    prefix: 'jena'
+    prefix: 'jenableautomock'
     body: 'jest.enableAutomock();'
 
   'jest.fn()':
@@ -17,49 +17,49 @@
     body: 'jest.fn($1);'
 
   'jest.isMockFunction(fn)':
-    prefix: 'jim'
+    prefix: 'jismock'
     body: 'jest.isMockFunction($1);'
 
   'jest.genMockFromModule(moduleName)':
-    prefix: 'jgm'
+    prefix: 'jgenmock'
     body: 'jest.genMockFromModule($1);'
 
   'jest.mock(moduleName, factory, options)':
-    prefix: 'jmo'
+    prefix: 'jmock'
     body: 'jest.mock($1);'
 
   'jest.resetAllMocks()':
-    prefix: 'jramo'
+    prefix: 'jresetallmocks'
     body: 'jest.resetAllMocks();'
 
   'jest.resetModules()':
-    prefix: 'jrmo'
+    prefix: 'jresetmodules'
     body: 'jest.resetModules();'
 
   'jest.runAllTicks()':
-    prefix: 'jticks'
+    prefix: 'jrunticks'
     body: 'jest.runAllTicks();'
 
   'jest.runAllTimers()':
-    prefix: 'jtimers'
+    prefix: 'jruntimers'
     body: 'jest.runAllTimers();'
 
   'jest.runOnlyPendingTimers()':
-    prefix: 'jtimers'
+    prefix: 'jrunpendtimers'
     body: 'jest.runOnlyPendingTimers();'
 
   'jest.setMock(moduleName, moduleExports)':
-    prefix: 'jtimers'
+    prefix: 'jsetmock'
     body: 'jest.setMock($1);'
 
   'jest.unmock(moduleName)':
-    prefix: 'jtimers'
+    prefix: 'junmock'
     body: 'jest.unmock($1);'
 
   'jest.useFakeTimers()':
-    prefix: 'jtimers'
+    prefix: 'jfaketimers'
     body: 'jest.useFakeTimers($1);'
 
   'jest.useRealTimers()':
-    prefix: 'jtimers'
+    prefix: 'jrealtimers'
     body: 'jest.useRealTimers($1);'
