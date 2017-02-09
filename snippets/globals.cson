@@ -1,6 +1,8 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
 
   'describe(name, fn)':
+    description: 'describe(name, fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#describename-fn'
     prefix: 'desc'
     body: """
       describe('$1', () => {
@@ -9,6 +11,8 @@
     """
 
   'test(name, fn)':
+    description: 'test(name, fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#testname-fn'
     prefix: 'test'
     body: """
       test('$1', () => {
@@ -17,6 +21,8 @@
     """
 
   'it(name, fn)':
+    description: 'alias for test()'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#testname-fn'
     prefix: 'it'
     body: """
       it('$1', () => {
@@ -25,6 +31,8 @@
     """
 
   'afterAll(fn)':
+    description: 'afterAll(fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#afterallfn'
     prefix: 'aftera'
     body: """
       afterAll(() => {
@@ -33,6 +41,8 @@
     """
 
   'afterEach(fn)':
+    description: 'afterEach(fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#aftereachfn'
     prefix: 'aftere'
     body: """
       afterEach(() => {
@@ -41,6 +51,8 @@
     """
 
   'beforeAll(fn)':
+    description: 'beforeAll(fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#beforeallfn'
     prefix: 'beforea'
     body: """
       beforeAll(() => {
@@ -49,6 +61,8 @@
     """
 
   'beforeEach(fn)':
+    description: 'beforeEach(fn)'
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/api.html#beforeeachfn'
     prefix: 'beforee'
     body: """
       beforeEach(() => {
