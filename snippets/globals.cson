@@ -1,4 +1,17 @@
 '.source.js, .source.jsx, .source.ts, .source.js-semantic':
+  'jsetup':
+    description: 'Sets up jest test file'
+    prefix: 'jsetup'
+    body: """
+      import $1 from './$1'
+
+      describe('$1', () => {
+        test('$2', () => {
+            $3
+        })
+      })
+
+    """
 
   'describe(name, fn)':
     description: 'describe(name, fn)'
