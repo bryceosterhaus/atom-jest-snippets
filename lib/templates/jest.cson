@@ -1,0 +1,81 @@
+'.source.js, .source.jsx, .source.ts, .source.js-semantic':
+
+  'jest.clearAllTimers()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/mock-function-api.html#mockfnmockclear'
+    prefix: 'jcleartimers'
+    body: 'jest.clearAllTimers(){{expressionTerminator}}'
+
+  'jest.disableAutomock()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#disableutomock'
+    prefix: 'jdisableautomock'
+    body: 'jest.disableAutomock(){{expressionTerminator}}'
+
+  'jest.enableAutomock()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#enableautomock'
+    prefix: 'jenableautomock'
+    body: 'jest.enableAutomock(){{expressionTerminator}}'
+
+  'jest.fn()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestfnimplementation'
+    prefix: 'jfn'
+    body: 'jest.fn($1){{expressionTerminator}}'
+
+  'jest.isMockFunction(fn)':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestismockfunctionfn'
+    prefix: 'jismock'
+    body: 'jest.isMockFunction($1){{expressionTerminator}}'
+
+  'jest.genMockFromModule(moduleName)':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestgenmockfrommodulemodulename'
+    prefix: 'jgenmock'
+    body: 'jest.genMockFromModule($1){{expressionTerminator}}'
+
+  'jest.mock(moduleName, factory, options)':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestmockmodulename-factory-options'
+    prefix: 'jmock'
+    body: 'jest.mock($1){{expressionTerminator}}'
+
+  'jest.resetAllMocks()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestresetallmocks'
+    prefix: 'jresetallmocks'
+    body: 'jest.resetAllMocks(){{expressionTerminator}}'
+
+  'jest.resetModules()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestresetmodules'
+    prefix: 'jresetmodules'
+    body: 'jest.resetModules(){{expressionTerminator}}'
+
+  'jest.runAllTicks()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestrunallticks'
+    prefix: 'jrunticks'
+    body: 'jest.runAllTicks(){{expressionTerminator}}'
+
+  'jest.runAllTimers()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestrunalltimers'
+    prefix: 'jruntimers'
+    body: 'jest.runAllTimers(){{expressionTerminator}}'
+
+  'jest.runOnlyPendingTimers()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestrunonlypendingtimers'
+    prefix: 'jrunpendtimers'
+    body: 'jest.runOnlyPendingTimers(){{expressionTerminator}}'
+
+  'jest.setMock(moduleName, moduleExports)':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestsetmockmodulename-moduleexports'
+    prefix: 'jsetmock'
+    body: 'jest.setMock($1){{expressionTerminator}}'
+
+  'jest.unmock(moduleName)':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestunmockmodulename'
+    prefix: 'junmock'
+    body: 'jest.unmock($1){{expressionTerminator}}'
+
+  'jest.useFakeTimers()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestusefaketimers'
+    prefix: 'jfaketimers'
+    body: 'jest.useFakeTimers($1){{expressionTerminator}}'
+
+  'jest.useRealTimers()':
+    descriptionMoreURL: 'https://facebook.github.io/jest/docs/jest-object.html#jestuserealtimers'
+    prefix: 'jrealtimers'
+    body: 'jest.useRealTimers($1){{expressionTerminator}}'

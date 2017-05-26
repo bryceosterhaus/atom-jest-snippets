@@ -3,13 +3,13 @@
     description: 'Sets up jest test file'
     prefix: 'jsetup'
     body: """
-      import $1 from './$1';
+      import $1 from './$1'{{expressionTerminator}}
 
       describe('$1', () => {
         test('$2', () => {
             $3
-        });
-      });
+        }){{expressionTerminator}}
+      }){{expressionTerminator}}
 
     """
 
@@ -20,7 +20,7 @@
     body: """
       describe('$1', () => {
         $2
-      });
+      }){{expressionTerminator}}
     """
 
   'test(name, fn)':
@@ -30,7 +30,7 @@
     body: """
       test('$1', () => {
         $2
-      });
+      }){{expressionTerminator}}
     """
 
   'it(name, fn)':
@@ -40,7 +40,7 @@
     body: """
       it('$1', () => {
         $2
-      });
+      }){{expressionTerminator}}
     """
 
   'afterAll(fn)':
@@ -50,7 +50,7 @@
     body: """
       afterAll(() => {
         $1
-      });
+      }){{expressionTerminator}}
     """
 
   'afterEach(fn)':
@@ -60,7 +60,7 @@
     body: """
       afterEach(() => {
         $1
-      });
+      }){{expressionTerminator}}
     """
 
   'beforeAll(fn)':
@@ -70,7 +70,7 @@
     body: """
       beforeAll(() => {
         $1
-      });
+      }){{expressionTerminator}}
     """
 
   'beforeEach(fn)':
@@ -80,5 +80,5 @@
     body: """
       beforeEach(() => {
         $1
-      });
+      }){{expressionTerminator}}
     """
