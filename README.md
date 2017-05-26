@@ -4,6 +4,9 @@ An [Atom](https://atom.io/) snippet library for [Jest](https://facebook.github.i
 
 Install via `apm install atom-jest-snippets`
 
+## Settings
+**Toggle Semicolons:**  [Default: with semicolons] Allows the user to toggle between having semicolons on or off.
+
 ## Snippet Available
 
 expect.cson
@@ -12,7 +15,7 @@ expect.cson
 #### [exp]
 expect(value)
 ```js
-expect($1)$2
+expect($1)$2;
 ```
 
 #### [ebe]
