@@ -1,4 +1,6 @@
 # Atom Jest Snippets
+[![apm](https://img.shields.io/apm/v/atom-jest-snippets.svg?style=flat-square)](https://atom.io/packages/atom-jest-snippets)
+[![apm](https://img.shields.io/apm/dm/atom-jest-snippets.svg?style=flat-square)](https://atom.io/packages/atom-jest-snippets)
 
 An [Atom](https://atom.io/) snippet library for [Jest](https://facebook.github.io/jest/). This library uses ES6 syntax.
 
