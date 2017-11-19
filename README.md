@@ -20,6 +20,18 @@ expect(value)
 expect($1)$2;
 ```
 
+#### [expa]
+expect.assertions(value)
+```js
+expect.assertions($1);
+```
+
+#### [exph]
+expect.hasAssertions()
+```js
+expect.hasAssertions();
+```
+
 #### [ebe]
 expect(value).toBe(value)
 ```js
