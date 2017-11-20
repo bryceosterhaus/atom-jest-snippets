@@ -1,7 +1,7 @@
 {
   "name": "atom-jest-snippets",
   "main": "./lib/atom-jest-snippets",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Snippets for Jest testing framework",
   "repository": "https://github.com/bryceosterhaus/atom-jest-snippets.git",
   "keywords": [
