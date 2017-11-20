@@ -6,6 +6,18 @@
     prefix: 'exp'
     body: 'expect($1)$2{{expressionTerminator}}'
 
+  'expect.assertions(value)':
+    description: 'expect.assertions(value);'
+    descriptionMoreURL: 'http://facebook.github.io/jest/docs/en/expect.html#expectassertionsnumber'
+    prefix: 'expa'
+    body: 'expect.assertions($1)'
+
+  'expect.hasAssertions()':
+    description: 'expect.hasAssertions();'
+    descriptionMoreURL: 'http://facebook.github.io/jest/docs/en/expect.html#expecthasassertions'
+    prefix: 'exph'
+    body: 'expect.hasAssertions()'
+
   '.toBe(value)':
     description: 'expect(value).toBe(value)'
     descriptionMoreURL: 'http://facebook.github.io/jest/docs/expect.html#tobevalue'
