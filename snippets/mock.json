@@ -1,0 +1,46 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    ".mockClear()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockclear",
+      "prefix": "mclear",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockClear();"
+    },
+    ".mockImplementation(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockimplementationfn",
+      "prefix": "mimpl",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockImplementation($1);"
+    },
+    ".mockImplementationOnce(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockimplementationoncefn",
+      "prefix": "mimplonce",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockImplementationOnce($1);"
+    },
+    ".mockReset()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockreset",
+      "prefix": "mreset",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockReset();"
+    },
+    ".mockReturnThis()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockreturnthis",
+      "prefix": "mrett",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockReturnThis();"
+    },
+    ".mockReturnValue(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockreturnvaluevalue",
+      "prefix": "mretval",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockReturnValue($1);"
+    },
+    ".mockReturnValueOnce(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#mockfnmockreturnvalueoncevalue",
+      "prefix": "mretvalo",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": ".mockReturnValueOnce($1);"
+    }
+  }
+}

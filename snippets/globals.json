@@ -1,0 +1,46 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    "afterAll(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#afterallfn",
+      "prefix": "aftera",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "afterAll(() => {\n  $1\n});"
+    },
+    "afterEach(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#aftereachfn",
+      "prefix": "aftere",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "afterEach(() => {\n  $1\n});"
+    },
+    "beforeAll(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#beforeallfn",
+      "prefix": "beforea",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "beforeAll(() => {\n  $1\n});"
+    },
+    "beforeEach(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#beforeeachfn",
+      "prefix": "beforee",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "beforeEach(() => {\n  $1\n});"
+    },
+    "describe(name, fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#describename-fn",
+      "prefix": "desc",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "describe('$1', () => {\n  $2\n});"
+    },
+    "it(name, fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#testname-fn",
+      "prefix": "it",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "it('$1', () => {\n  $2\n});"
+    },
+    "test(name, fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#testname-fn",
+      "prefix": "test",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "test('$1', () => {\n  $2\n});"
+    }
+  }
+}

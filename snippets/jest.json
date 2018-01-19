@@ -1,0 +1,130 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    "jest.clearAllTimers()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/mock-function-api.html#mockfnmockclear",
+      "prefix": "jcleartimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.clearAllTimers();"
+    },
+    "jest.clearAllMocks()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/mock-function-api.html#jestclearallmocks",
+      "prefix": "jclearmocks",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.clearAllMocks();"
+    },
+    "jest.disableAutomock()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#disableutomock",
+      "prefix": "jdisableautomock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.disableAutomock();"
+    },
+    "jest.doMock(moduleName, factory, options)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestdomockmodulename-factory-options",
+      "prefix": "jdomo",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.doMock($1);"
+    },
+    "jest.dontMock(moduleName)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestdontmockmodulename",
+      "prefix": "jdonmo",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.dontMock($1);"
+    },
+    "jest.enableAutomock()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#enableautomock",
+      "prefix": "jenableautomock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.enableAutomock();"
+    },
+    "jest.fn()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestfnimplementation",
+      "prefix": "jfn",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.fn($1);"
+    },
+    "jest.genMockFromModule(moduleName)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestgenmockfrommodulemodulename",
+      "prefix": "jgenmock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.genMockFromModule($1);"
+    },
+    "jest.isMockFunction(fn)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestismockfunctionfn",
+      "prefix": "jismock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.isMockFunction($1);"
+    },
+    "jest.mock(moduleName, factory, options)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestmockmodulename-factory-options",
+      "prefix": "jmock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.mock($1);"
+    },
+    "jest.resetAllMocks()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestresetallmocks",
+      "prefix": "jresetallmocks",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.resetAllMocks();"
+    },
+    "jest.resetModules()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestresetmodules",
+      "prefix": "jresetmodules",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.resetModules();"
+    },
+    "jest.restoreAllMocks()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestrestoreallmocks",
+      "prefix": "jrestore",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.restoreAllMocks();"
+    },
+    "jest.runAllTicks()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestrunallticks",
+      "prefix": "jrunticks",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.runAllTicks();"
+    },
+    "jest.runAllTimers()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestrunalltimers",
+      "prefix": "jruntimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.runAllTimers();"
+    },
+    "jest.runOnlyPendingTimers()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestrunonlypendingtimers",
+      "prefix": "jrunpendtimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.runOnlyPendingTimers();"
+    },
+    "jest.setMock(moduleName, moduleExports)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestsetmockmodulename-moduleexports",
+      "prefix": "jsetmock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.setMock($1);"
+    },
+    "jest.spyOn(object, method)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestspyonobject-methodname",
+      "prefix": "jspy",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.spyOn($1);"
+    },
+    "jest.unmock(moduleName)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestunmockmodulename",
+      "prefix": "junmock",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.unmock($1);"
+    },
+    "jest.useFakeTimers()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestusefaketimers",
+      "prefix": "jfaketimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.useFakeTimers($1);"
+    },
+    "jest.useRealTimers()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/jest-object.html#jestuserealtimers",
+      "prefix": "jrealtimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.useRealTimers($1);"
+    }
+  }
+}

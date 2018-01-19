@@ -1,0 +1,226 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    ".not": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#not",
+      "prefix": "enot",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).not;"
+    },
+    ".resolves": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#resolves",
+      "prefix": "eres",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).resolves;"
+    },
+    ".rejects": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#rejects",
+      "prefix": "erej",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).rejects;"
+    },
+    ".toBe(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobevalue",
+      "prefix": "ebe",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBe($2);"
+    },
+    ".toBeCloseTo(number, number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobeclosetonumber-numdigits",
+      "prefix": "ecloseto",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeCloseTo($2, $3);"
+    },
+    ".toBeDefined()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobedefined",
+      "prefix": "edef",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeDefined();"
+    },
+    ".toBeFalsy()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobefalsy",
+      "prefix": "efalsy",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeFalsy();"
+    },
+    ".toBeGreaterThan(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobegreaterthannumber",
+      "prefix": "egreater",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeGreaterThan($2);"
+    },
+    ".toBeGreaterThanOrEqual(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobelessthanorequalnumber",
+      "prefix": "egreateror",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeGreaterThanOrEqual($2);"
+    },
+    ".toBeInstanceOf(Class)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobeinstanceofclass",
+      "prefix": "einst",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeInstanceOf($2);"
+    },
+    ".toBeLessThan(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobelessthannumber",
+      "prefix": "eless",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeLessThan($2);"
+    },
+    ".toBeLessThanOrEqual(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobelessthanorequalnumber",
+      "prefix": "elessor",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeLessThanOrEqual($2);"
+    },
+    ".toBeNull()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobenull",
+      "prefix": "enull",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeNull();"
+    },
+    ".toBeTruthy()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobetruthy",
+      "prefix": "etruthy",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeTruthy();"
+    },
+    ".toBeUndefined()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tobeundefined",
+      "prefix": "eundef",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toBeUndefined();"
+    },
+    ".toContain(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tocontainitem",
+      "prefix": "econ",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toContain($2);"
+    },
+    ".toContainEqual(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tocontainequalitem",
+      "prefix": "econeq",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toContainEqual($2);"
+    },
+    ".toEqual(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#toequalvalue",
+      "prefix": "eeq",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toEqual($2);"
+    },
+    ".toHaveBeenCalled()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tohavebeencalled",
+      "prefix": "ecall",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toHaveBeenCalled();"
+    },
+    ".toHaveBeenCalledTimes(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tohavebeencalledtimesnumber",
+      "prefix": "ecallt",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toHaveBeenCalledTimes($2);"
+    },
+    ".toHaveBeenCalledWith(values)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tohavebeencalledwitharg1-arg2-",
+      "prefix": "ecallw",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toHaveBeenCalledWith($2);"
+    },
+    ".toHaveLength(number)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tohavelengthnumber",
+      "prefix": "eleng",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toHaveLength($2);"
+    },
+    ".toHaveProperty(keyPath, value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tohaveproperty",
+      "prefix": "eprop",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toHaveProperty($2);"
+    },
+    ".toMatch(regexpOrString)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tomatchregexporstring",
+      "prefix": "emat",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toMatch($2);"
+    },
+    ".toMatchObject(obj)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tomatchobjectobject",
+      "prefix": "ematob",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toMatchObject($2);"
+    },
+    ".toMatchSnapshot(optionalString)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tomatchsnapshotoptionalstring",
+      "prefix": "ematsnap",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toMatchSnapshot($2);"
+    },
+    ".toThrow(error)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tothrowerror",
+      "prefix": "ethr",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toThrow($2);"
+    },
+    ".toThrowErrorMatchingSnapshot()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#tothrowerrormatchingsnapshot",
+      "prefix": "ethrsn",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1).toThrow($2);"
+    },
+    "expect(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/expect.html#expectvalue",
+      "prefix": "exp",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect($1)$2;"
+    },
+    "expect.anything()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectanything",
+      "prefix": "eanyt",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.anything($1);"
+    },
+    "expect.any()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#anyconstructor",
+      "prefix": "eany",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.any($1);"
+    },
+    "expect.arrayContaining(array)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectarraycontainingarray",
+      "prefix": "earrc",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.arrayContaining($1);"
+    },
+    "expect.assertions(value)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectassertionsnumber",
+      "prefix": "expa",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.assertions($1);"
+    },
+    "expect.hasAssertions()": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expecthasassertions",
+      "prefix": "exph",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.hasAssertions();"
+    },
+    "expect.objectContaining(object)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectobjectcontainingobject",
+      "prefix": "eobjc",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.objectContaining($1);"
+    },
+    "expect.stringContaining(string)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectstringcontainingstring",
+      "prefix": "estrc",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.stringContaining($1);"
+    },
+    "expect.stringMatching(regexp)": {
+      "descriptionMoreURL": "https://facebook.github.io/jest/docs/en/expect.html#expectstringmatchingregexp",
+      "prefix": "estrm",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "expect.stringMatching($1);"
+    }
+  }
+}
