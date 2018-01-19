@@ -1,0 +1,46 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    "afterAll(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#afterallfn",
+      "prefix": "aftera",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "afterAll(() => {\n  $1\n}){{expressionTerminator}}"
+    },
+    "afterEach(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#aftereachfn",
+      "prefix": "aftere",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "afterEach(() => {\n  $1\n}){{expressionTerminator}}"
+    },
+    "beforeAll(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#beforeallfn",
+      "prefix": "beforea",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "beforeAll(() => {\n  $1\n}){{expressionTerminator}}"
+    },
+    "beforeEach(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#beforeeachfn",
+      "prefix": "beforee",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "beforeEach(() => {\n  $1\n}){{expressionTerminator}}"
+    },
+    "describe(name, fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#describename-fn",
+      "prefix": "desc",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "describe('$1', () => {\n  $2\n}){{expressionTerminator}}"
+    },
+    "it(name, fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#testname-fn",
+      "prefix": "it",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "it('$1', () => {\n  $2\n}){{expressionTerminator}}"
+    },
+    "test(name, fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/api.html#testname-fn",
+      "prefix": "test",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "test('$1', () => {\n  $2\n}){{expressionTerminator}}"
+    }
+  }
+}

@@ -9,7 +9,7 @@ export default {
   activate(state) {
     this.subscriptions = new CompositeDisposable();
     this.subscriptions.add(atom.config.onDidChange('atom-jest-snippets', (value) => {
-      generateSnippets();
+      generateSnippets(atom.config.get('atom-jest-snippets.toggleSemicolons'));
     }));
   },
 

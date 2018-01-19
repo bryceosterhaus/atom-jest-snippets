@@ -1,0 +1,130 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    "jest.clearAllTimers()": {
+      "descriptionMoreURL": "{{{docsURL}}}/mock-function-api.html#mockfnmockclear",
+      "prefix": "jcleartimers",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.clearAllTimers(){{expressionTerminator}}"
+    },
+    "jest.clearAllMocks()": {
+      "descriptionMoreURL": "{{{docsURL}}}/mock-function-api.html#jestclearallmocks",
+      "prefix": "jclearmocks",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.clearAllMocks(){{expressionTerminator}}"
+    },
+    "jest.disableAutomock()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#disableutomock",
+      "prefix": "jdisableautomock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.disableAutomock(){{expressionTerminator}}"
+    },
+    "jest.doMock(moduleName, factory, options)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestdomockmodulename-factory-options",
+      "prefix": "jdomo",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.doMock($1){{expressionTerminator}}"
+    },
+    "jest.dontMock(moduleName)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestdontmockmodulename",
+      "prefix": "jdonmo",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.dontMock($1){{expressionTerminator}}"
+    },
+    "jest.enableAutomock()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#enableautomock",
+      "prefix": "jenableautomock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.enableAutomock(){{expressionTerminator}}"
+    },
+    "jest.fn()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestfnimplementation",
+      "prefix": "jfn",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.fn($1){{expressionTerminator}}"
+    },
+    "jest.genMockFromModule(moduleName)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestgenmockfrommodulemodulename",
+      "prefix": "jgenmock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.genMockFromModule($1){{expressionTerminator}}"
+    },
+    "jest.isMockFunction(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestismockfunctionfn",
+      "prefix": "jismock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.isMockFunction($1){{expressionTerminator}}"
+    },
+    "jest.mock(moduleName, factory, options)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestmockmodulename-factory-options",
+      "prefix": "jmock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.mock($1){{expressionTerminator}}"
+    },
+    "jest.resetAllMocks()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestresetallmocks",
+      "prefix": "jresetallmocks",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.resetAllMocks(){{expressionTerminator}}"
+    },
+    "jest.resetModules()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestresetmodules",
+      "prefix": "jresetmodules",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.resetModules(){{expressionTerminator}}"
+    },
+    "jest.restoreAllMocks()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestrestoreallmocks",
+      "prefix": "jrestore",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.restoreAllMocks(){{expressionTerminator}}"
+    },
+    "jest.runAllTicks()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestrunallticks",
+      "prefix": "jrunticks",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.runAllTicks(){{expressionTerminator}}"
+    },
+    "jest.runAllTimers()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestrunalltimers",
+      "prefix": "jruntimers",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.runAllTimers(){{expressionTerminator}}"
+    },
+    "jest.runOnlyPendingTimers()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestrunonlypendingtimers",
+      "prefix": "jrunpendtimers",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.runOnlyPendingTimers(){{expressionTerminator}}"
+    },
+    "jest.setMock(moduleName, moduleExports)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestsetmockmodulename-moduleexports",
+      "prefix": "jsetmock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.setMock($1){{expressionTerminator}}"
+    },
+    "jest.spyOn(object, method)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestspyonobject-methodname",
+      "prefix": "jspy",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.spyOn($1){{expressionTerminator}}"
+    },
+    "jest.unmock(moduleName)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestunmockmodulename",
+      "prefix": "junmock",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.unmock($1){{expressionTerminator}}"
+    },
+    "jest.useFakeTimers()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestusefaketimers",
+      "prefix": "jfaketimers",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.useFakeTimers($1){{expressionTerminator}}"
+    },
+    "jest.useRealTimers()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#jestuserealtimers",
+      "prefix": "jrealtimers",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "jest.useRealTimers($1){{expressionTerminator}}"
+    }
+  }
+}

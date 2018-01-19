@@ -1,0 +1,10 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    "jsetup": {
+      "description": "Sets up jest test file",
+      "prefix": "jsetup",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "import $1 from './$1'{{expressionTerminator}}\n\ndescribe('$1', () => {\n  test('$2', () => {\n      $3\n  }){{expressionTerminator}}\n}){{expressionTerminator}}\n"
+    }
+  }
+}

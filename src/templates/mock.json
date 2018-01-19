@@ -1,0 +1,46 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    ".mockClear()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockclear",
+      "prefix": "mclear",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockClear(){{expressionTerminator}}"
+    },
+    ".mockImplementation(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockimplementationfn",
+      "prefix": "mimpl",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockImplementation($1){{expressionTerminator}}"
+    },
+    ".mockImplementationOnce(fn)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockimplementationoncefn",
+      "prefix": "mimplonce",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockImplementationOnce($1){{expressionTerminator}}"
+    },
+    ".mockReset()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockreset",
+      "prefix": "mreset",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockReset(){{expressionTerminator}}"
+    },
+    ".mockReturnThis()": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockreturnthis",
+      "prefix": "mrett",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockReturnThis(){{expressionTerminator}}"
+    },
+    ".mockReturnValue(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockreturnvaluevalue",
+      "prefix": "mretval",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockReturnValue($1){{expressionTerminator}}"
+    },
+    ".mockReturnValueOnce(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/jest-object.html#mockfnmockreturnvalueoncevalue",
+      "prefix": "mretvalo",
+      "leftLabelHTML": "{{{label}}}",
+      "body": ".mockReturnValueOnce($1){{expressionTerminator}}"
+    }
+  }
+}

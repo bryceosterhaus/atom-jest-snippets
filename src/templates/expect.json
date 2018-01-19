@@ -1,0 +1,226 @@
+{
+  ".source.js, .source.jsx, .source.ts, .source.js-semantic": {
+    ".not": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#not",
+      "prefix": "enot",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).not{{expressionTerminator}}"
+    },
+    ".resolves": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#resolves",
+      "prefix": "eres",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).resolves{{expressionTerminator}}"
+    },
+    ".rejects": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#rejects",
+      "prefix": "erej",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).rejects{{expressionTerminator}}"
+    },
+    ".toBe(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobevalue",
+      "prefix": "ebe",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBe($2){{expressionTerminator}}"
+    },
+    ".toBeCloseTo(number, number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobeclosetonumber-numdigits",
+      "prefix": "ecloseto",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeCloseTo($2, $3){{expressionTerminator}}"
+    },
+    ".toBeDefined()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobedefined",
+      "prefix": "edef",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeDefined(){{expressionTerminator}}"
+    },
+    ".toBeFalsy()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobefalsy",
+      "prefix": "efalsy",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeFalsy(){{expressionTerminator}}"
+    },
+    ".toBeGreaterThan(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobegreaterthannumber",
+      "prefix": "egreater",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeGreaterThan($2){{expressionTerminator}}"
+    },
+    ".toBeGreaterThanOrEqual(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobelessthanorequalnumber",
+      "prefix": "egreateror",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeGreaterThanOrEqual($2){{expressionTerminator}}"
+    },
+    ".toBeInstanceOf(Class)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobeinstanceofclass",
+      "prefix": "einst",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeInstanceOf($2){{expressionTerminator}}"
+    },
+    ".toBeLessThan(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobelessthannumber",
+      "prefix": "eless",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeLessThan($2){{expressionTerminator}}"
+    },
+    ".toBeLessThanOrEqual(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobelessthanorequalnumber",
+      "prefix": "elessor",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeLessThanOrEqual($2){{expressionTerminator}}"
+    },
+    ".toBeNull()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobenull",
+      "prefix": "enull",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeNull(){{expressionTerminator}}"
+    },
+    ".toBeTruthy()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobetruthy",
+      "prefix": "etruthy",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeTruthy(){{expressionTerminator}}"
+    },
+    ".toBeUndefined()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tobeundefined",
+      "prefix": "eundef",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toBeUndefined(){{expressionTerminator}}"
+    },
+    ".toContain(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tocontainitem",
+      "prefix": "econ",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toContain($2){{expressionTerminator}}"
+    },
+    ".toContainEqual(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tocontainequalitem",
+      "prefix": "econeq",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toContainEqual($2){{expressionTerminator}}"
+    },
+    ".toEqual(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#toequalvalue",
+      "prefix": "eeq",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toEqual($2){{expressionTerminator}}"
+    },
+    ".toHaveBeenCalled()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tohavebeencalled",
+      "prefix": "ecall",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toHaveBeenCalled(){{expressionTerminator}}"
+    },
+    ".toHaveBeenCalledTimes(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tohavebeencalledtimesnumber",
+      "prefix": "ecallt",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toHaveBeenCalledTimes($2){{expressionTerminator}}"
+    },
+    ".toHaveBeenCalledWith(values)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tohavebeencalledwitharg1-arg2-",
+      "prefix": "ecallw",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toHaveBeenCalledWith($2){{expressionTerminator}}"
+    },
+    ".toHaveLength(number)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tohavelengthnumber",
+      "prefix": "eleng",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toHaveLength($2){{expressionTerminator}}"
+    },
+    ".toHaveProperty(keyPath, value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tohaveproperty",
+      "prefix": "eprop",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toHaveProperty($2){{expressionTerminator}}"
+    },
+    ".toMatch(regexpOrString)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tomatchregexporstring",
+      "prefix": "emat",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toMatch($2){{expressionTerminator}}"
+    },
+    ".toMatchObject(obj)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tomatchobjectobject",
+      "prefix": "ematob",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toMatchObject($2){{expressionTerminator}}"
+    },
+    ".toMatchSnapshot(optionalString)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tomatchsnapshotoptionalstring",
+      "prefix": "ematsnap",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toMatchSnapshot($2){{expressionTerminator}}"
+    },
+    ".toThrow(error)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tothrowerror",
+      "prefix": "ethr",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toThrow($2){{expressionTerminator}}"
+    },
+    ".toThrowErrorMatchingSnapshot()": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#tothrowerrormatchingsnapshot",
+      "prefix": "ethrsn",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1).toThrow($2){{expressionTerminator}}"
+    },
+    "expect(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/expect.html#expectvalue",
+      "prefix": "exp",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect($1)$2{{expressionTerminator}}"
+    },
+    "expect.anything()": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectanything",
+      "prefix": "eanyt",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.anything($1){{expressionTerminator}}"
+    },
+    "expect.any()": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#anyconstructor",
+      "prefix": "eany",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.any($1){{expressionTerminator}}"
+    },
+    "expect.arrayContaining(array)": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectarraycontainingarray",
+      "prefix": "earrc",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.arrayContaining($1){{expressionTerminator}}"
+    },
+    "expect.assertions(value)": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectassertionsnumber",
+      "prefix": "expa",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.assertions($1){{expressionTerminator}}"
+    },
+    "expect.hasAssertions()": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expecthasassertions",
+      "prefix": "exph",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.hasAssertions(){{expressionTerminator}}"
+    },
+    "expect.objectContaining(object)": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectobjectcontainingobject",
+      "prefix": "eobjc",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.objectContaining($1){{expressionTerminator}}"
+    },
+    "expect.stringContaining(string)": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectstringcontainingstring",
+      "prefix": "estrc",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.stringContaining($1){{expressionTerminator}}"
+    },
+    "expect.stringMatching(regexp)": {
+      "descriptionMoreURL": "{{{docsURL}}}/en/expect.html#expectstringmatchingregexp",
+      "prefix": "estrm",
+      "leftLabelHTML": "{{{label}}}",
+      "body": "expect.stringMatching($1){{expressionTerminator}}"
+    }
+  }
+}
