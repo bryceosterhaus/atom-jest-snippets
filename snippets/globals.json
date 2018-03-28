@@ -28,19 +28,19 @@
       "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#describename-fn",
       "prefix": "desc",
       "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
-      "body": "describe('$1', () => {\n  $2\n});"
+      "body": "describe(\"$1\", () => {\n  $2\n});"
     },
     "it(name, fn)": {
       "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#testname-fn",
       "prefix": "it",
       "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
-      "body": "it('$1', () => {\n  $2\n});"
+      "body": "it(\"$1\", () => {\n  $2\n});"
     },
     "test(name, fn)": {
       "descriptionMoreURL": "https://facebook.github.io/jest/docs/api.html#testname-fn",
       "prefix": "test",
       "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
-      "body": "test('$1', () => {\n  $2\n});"
+      "body": "test(\"$1\", () => {\n  $2\n});"
     }
   }
 }

@@ -23,7 +23,7 @@
     "quoteType": {
       "type": "string",
       "default": "'",
-      "description": "The quote type to use when generating snippets",
+      "description": "The quote type to use when generating snippets(atom restart required)",
       "enum": ["'","\"","`"]
     }
   },
