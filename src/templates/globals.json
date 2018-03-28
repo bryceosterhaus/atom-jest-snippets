@@ -28,19 +28,19 @@
       "descriptionMoreURL": "{{{docsURL}}}/api.html#describename-fn",
       "prefix": "desc",
       "leftLabelHTML": "{{{label}}}",
-      "body": "describe('$1', () => {\n  $2\n}){{expressionTerminator}}"
+      "body": "describe({{{quoteType}}}$1{{{quoteType}}}, () => {\n  $2\n}){{expressionTerminator}}"
     },
     "it(name, fn)": {
       "descriptionMoreURL": "{{{docsURL}}}/api.html#testname-fn",
       "prefix": "it",
       "leftLabelHTML": "{{{label}}}",
-      "body": "it('$1', () => {\n  $2\n}){{expressionTerminator}}"
+      "body": "it({{{quoteType}}}$1{{{quoteType}}}, () => {\n  $2\n}){{expressionTerminator}}"
     },
     "test(name, fn)": {
       "descriptionMoreURL": "{{{docsURL}}}/api.html#testname-fn",
       "prefix": "test",
       "leftLabelHTML": "{{{label}}}",
-      "body": "test('$1', () => {\n  $2\n}){{expressionTerminator}}"
+      "body": "test({{{quoteType}}}$1{{{quoteType}}}, () => {\n  $2\n}){{expressionTerminator}}"
     }
   }
 }
