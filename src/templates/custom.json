@@ -4,7 +4,7 @@
       "description": "Sets up jest test file",
       "prefix": "jsetup",
       "leftLabelHTML": "{{{label}}}",
-      "body": "import $1 from './$1'{{expressionTerminator}}\n\ndescribe('$1', () => {\n  test('$2', () => {\n      $3\n  }){{expressionTerminator}}\n}){{expressionTerminator}}\n"
+      "body": "import $1 from {{{quoteType}}}./$1{{{quoteType}}}{{expressionTerminator}}\n\ndescribe({{{quoteType}}}$1{{{quoteType}}}, () => {\n  test({{{quoteType}}}$2{{{quoteType}}}, () => {\n      $3\n  }){{expressionTerminator}}\n}){{expressionTerminator}}\n"
     }
   }
 }
