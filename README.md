@@ -36,6 +36,7 @@ The **⇥** means the `TAB` key
 | `junmock→`|`jest.unmock($1)` |
 | `jfaketimers→`|`jest.useFakeTimers($1)` |
 | `jrealtimers→`|`jest.useRealTimers($1)` |
+| `jadvanceTimers`|`jest.advanceTimersByTime($1)` |
 | ------- | ------- |
 | `enot→`|`expect($1).not` |
 | `eres→`|`expect($1).resolves` |
