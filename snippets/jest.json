@@ -125,6 +125,12 @@
       "prefix": "jrealtimers",
       "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
       "body": "jest.useRealTimers($1);"
+    },
+    "jest.advanceTimersByTime()": {
+      "descriptionMoreURL": "https://jestjs.io/docs/en/timer-mocks#advance-timers-by-time",
+      "prefix": "jadvanceTimers",
+      "leftLabelHTML": "<span style='color:#99424f'>Jest</span>",
+      "body": "jest.advanceTimersByTime($1);"
     }
   }
 }
